@@ -104,7 +104,7 @@ Secondary:
 
 Preferred public email:
 
-- `hello@maddragonfire.com`
+- `maddragonfire@gmail.com`
 
 Public social identity:
 

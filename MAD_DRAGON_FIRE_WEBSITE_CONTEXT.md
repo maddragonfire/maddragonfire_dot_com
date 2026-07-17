@@ -230,7 +230,7 @@ Secondary:
 
 Preferred public email:
 
-- `hello@maddragonfire.com`
+- `maddragonfire@gmail.com`
 
 Instagram:
 
@@ -559,7 +559,7 @@ Do not claim formal VOSB or SDVOSB certification unless completed and verified.
 
 Display:
 
-- `hello@maddragonfire.com`
+- `maddragonfire@gmail.com`
 - Instagram
 - GitHub
 - Seattle, Washington
@@ -708,7 +708,7 @@ Have a fire prop, repair, jig, or custom metalwork project in mind?
 
 Email:
 
-`hello@maddragonfire.com`
+`maddragonfire@gmail.com`
 
 Instagram:
 
@@ -807,7 +807,7 @@ Preferred initial incoming-mail system:
 
 Primary address:
 
-- `hello@maddragonfire.com`
+- `maddragonfire@gmail.com`
 
 Possible aliases:
 
@@ -947,7 +947,7 @@ Recommended:
 ## Phase 3 — Email
 
 - [ ] Enable Cloudflare Email Routing
-- [ ] Create `hello@maddragonfire.com`
+- [ ] Use `maddragonfire@gmail.com`
 - [ ] Configure forwarding destination
 - [ ] Verify forwarding
 - [ ] Add SPF
