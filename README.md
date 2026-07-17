@@ -103,4 +103,4 @@ http://localhost:8000
 
 - GitHub: https://github.com/maddragonfire
 - Instagram: https://instagram.com/mad_dragon_fire
-- Email: hello@maddragonfire.com
+- Email: maddragonfire@gmail.com

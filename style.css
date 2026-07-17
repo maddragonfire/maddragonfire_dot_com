@@ -269,18 +269,6 @@ p {
   filter: saturate(1.08) contrast(1.04);
 }
 
-.gallery-item::after {
-  position: absolute;
-  inset: 0;
-  content: "";
-  background: linear-gradient(180deg, transparent, rgba(15, 9, 6, 0.86));
-}
-
-.gallery-item h2 {
-  position: relative;
-  z-index: 1;
-}
-
 .contact-list {
   display: grid;
   gap: 1rem;
