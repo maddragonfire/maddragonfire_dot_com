@@ -45,13 +45,13 @@ The first release does not need:
 
 Mad Dragon Fire is not merely a novelty fire-prop brand.
 
-It should be presented as an engineering and fabrication company that produces specialized equipment for fire performers and artists.
+It should be presented as a fire-prop manufacturing and custom metal-fabrication company that produces specialized equipment for fire performers and artists.
 
 The company's differentiators include:
 
 - Professional software-engineering background
 - Welding and metal-fabrication capability
-- Embedded controls experience
+- Practical shop capability with welder, grinder, fixtures, and repeatable fabrication processes
 - Direct experience using fire-performance equipment
 - Ability to prototype, test, revise, and manufacture custom equipment
 - Emphasis on repeatability and reliability
@@ -68,9 +68,9 @@ Current work includes:
 - Repeatable fire-fan construction
 - Custom grip and ring designs
 - Palm-torch development
-- ESP32-based control systems
-- Networked flame-effect control
 - Fabrication tooling and jigs
+- Custom metalwork
+- Repair and modification work
 - Product documentation
 - Shop capability development
 

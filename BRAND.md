@@ -12,19 +12,19 @@ Public brand name:
 
 ## Core Description
 
-Mad Dragon Fire designs and fabricates professional fire-performance equipment through welding, engineering, and hands-on performance experience.
+Mad Dragon Fire manufactures fire-performance props and custom metalwork through welding, grinding, fabrication, and hands-on performance experience.
 
 ## Short Description
 
-Engineering and fabrication for fire-performance equipment.
+Fire props and custom metalwork.
 
 ## GitHub Bio
 
-Mad Dragon Fire LLC designs and fabricates fire-performance equipment through welding, mechanical design, embedded systems, and controls engineering.
+Mad Dragon Fire LLC manufactures fire-performance props and custom metalwork through welding, grinding, mechanical design, and direct performance experience.
 
 ## Brand Promise
 
-Build specialized fire-performance equipment with the precision, durability, and repeatability expected from professional engineering work.
+Build fire-performance props and custom metalwork with practical fabrication, durable construction, and repeatable shop processes.
 
 ## Tone
 
@@ -54,6 +54,7 @@ Use:
 - Engineer
 - Fabricate
 - Weld
+- Grind
 - Build
 - Test
 - Refine
@@ -62,10 +63,10 @@ Use:
 - Repeatable
 - Custom
 - Performance
-- Controls
-- Embedded systems
 - Mechanical design
 - Fire-performance equipment
+- Fire props
+- Custom metalwork
 
 Use carefully:
 
@@ -87,6 +88,8 @@ Avoid:
 - Ultimate
 - Unbreakable
 - Risk-free
+- Poofer-as-a-service
+- Insured flame-effect service
 
 ## Visual Direction
 

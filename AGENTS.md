@@ -8,22 +8,19 @@ Primary domain:
 
 - `maddragonfire.com`
 
-The site is intended to present Mad Dragon Fire as a professional engineering, fabrication, and fire-performance equipment company.
+The site is intended to present Mad Dragon Fire as a professional fire-prop manufacturing and custom metal-fabrication company.
 
 ## Company Summary
 
-Mad Dragon Fire LLC designs and fabricates fire-performance equipment.
+Mad Dragon Fire LLC manufactures fire-performance props and custom metalwork.
 
 The company combines:
 
 - TIG and MIG welding
+- Grinding and finishing
 - Steel and stainless-steel fabrication
 - Mechanical design
 - CAD
-- Embedded systems
-- ESP32 firmware
-- Networking
-- Controls engineering
 - Fire-performance experience
 
 Products and projects may include:
@@ -34,9 +31,9 @@ Products and projects may include:
 - Double staffs
 - Palm torches
 - Custom performance props
-- Electronic flame-effect controllers
-- Networked flame-effect systems
 - Fabrication jigs and tooling
+- Custom metalwork
+- Repair and modification work
 
 ## Engineering Priorities
 
@@ -89,6 +86,7 @@ Avoid:
 - Overly ornate interfaces
 - Claims that cannot be substantiated
 - Language suggesting unsafe or uncontrolled fire use
+- Language implying that Mad Dragon Fire currently sells poofers, poofer-as-a-service, or insured flame-effect services
 
 ## Code Expectations
 

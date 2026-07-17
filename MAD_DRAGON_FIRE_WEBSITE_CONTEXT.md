@@ -14,22 +14,19 @@ Primary domain:
 
 - `maddragonfire.com`
 
-The site should present Mad Dragon Fire as a professional engineering, fabrication, and fire-performance equipment company.
+The site should present Mad Dragon Fire as a professional fire-prop manufacturing and custom metal-fabrication company.
 
 ## Company Summary
 
-Mad Dragon Fire LLC designs and fabricates specialized fire-performance equipment.
+Mad Dragon Fire LLC manufactures fire-performance props and custom metalwork.
 
 The company combines:
 
 - TIG and MIG welding
+- Grinding and finishing
 - Steel and stainless-steel fabrication
 - Mechanical design
 - CAD
-- Embedded systems
-- ESP32 firmware
-- Networking
-- Controls engineering
 - Direct fire-performance experience
 
 Products and projects may include:
@@ -40,9 +37,9 @@ Products and projects may include:
 - Double staffs
 - Palm torches
 - Custom performance props
-- Electronic flame-effect controllers
-- Networked flame-effect systems
 - Fabrication jigs and tooling
+- Custom metalwork
+- Repair and modification work
 
 ## Engineering Priorities
 
@@ -95,6 +92,7 @@ Avoid:
 - Overly ornate interfaces
 - Unsupported claims
 - Language suggesting unsafe or uncontrolled fire use
+- Language implying that Mad Dragon Fire currently sells poofers, poofer-as-a-service, or insured flame-effect services
 
 ## Code Expectations
 
@@ -180,13 +178,13 @@ The first release does not need:
 
 Mad Dragon Fire is not merely a novelty fire-prop brand.
 
-Present it as an engineering and fabrication company producing specialized equipment for fire performers and artists.
+Present it as a fire-prop manufacturing and custom metal-fabrication company producing specialized equipment for fire performers and artists.
 
 Differentiators include:
 
 - Professional software and systems engineering background
 - Welding and metal-fabrication capability
-- Embedded-controls experience
+- Practical shop capability with welder, grinder, fixtures, and repeatable fabrication processes
 - Direct experience using fire-performance equipment
 - Ability to prototype, test, revise, and manufacture custom equipment
 - Emphasis on repeatability and reliability
@@ -197,9 +195,9 @@ Differentiators include:
 - Repeatable fire-fan construction
 - Custom grip and ring designs
 - Palm-torch development
-- ESP32-based control systems
-- Networked flame-effect control
 - Fabrication tooling and jigs
+- Custom metalwork
+- Repair and modification work
 - Product documentation
 - Shop capability development
 
@@ -277,19 +275,19 @@ Public brand name:
 
 ## Core Description
 
-Mad Dragon Fire designs and fabricates professional fire-performance equipment through welding, engineering, and hands-on performance experience.
+Mad Dragon Fire manufactures fire-performance props and custom metalwork through welding, grinding, fabrication, and hands-on performance experience.
 
 ## Short Description
 
-Engineering and fabrication for fire-performance equipment.
+Fire props and custom metalwork.
 
 ## GitHub Bio
 
-Mad Dragon Fire LLC designs and fabricates fire-performance equipment through welding, mechanical design, embedded systems, and controls engineering.
+Mad Dragon Fire LLC manufactures fire-performance props and custom metalwork through welding, grinding, mechanical design, and direct performance experience.
 
 ## Brand Promise
 
-Build specialized fire-performance equipment with the precision, durability, and repeatability expected from professional engineering work.
+Build fire-performance props and custom metalwork with practical fabrication, durable construction, and repeatable shop processes.
 
 ## Tone
 
@@ -319,6 +317,7 @@ Use:
 - Engineer
 - Fabricate
 - Weld
+- Grind
 - Build
 - Test
 - Refine
@@ -327,10 +326,10 @@ Use:
 - Repeatable
 - Custom
 - Performance
-- Controls
-- Embedded systems
 - Mechanical design
 - Fire-performance equipment
+- Fire props
+- Custom metalwork
 
 Use carefully:
 
@@ -456,11 +455,11 @@ Requirements:
 
 Suggested headline:
 
-> Fire-performance equipment, engineered and fabricated with precision.
+> Fire props and custom metalwork, fabricated with precision.
 
 Suggested supporting copy:
 
-> Mad Dragon Fire designs and builds specialized equipment for performers and artists through welding, mechanical design, embedded systems, and direct performance experience.
+> Mad Dragon Fire manufactures fire-performance props and custom metalwork for performers, artists, and fabrication clients through welding, grinding, mechanical design, and direct performance experience.
 
 Primary CTA:
 
@@ -490,14 +489,13 @@ Secondary CTA:
 - Wick mounting systems
 - Performer-specific geometry
 
-### Embedded Systems
+### Custom Metalwork
 
-- ESP32 firmware
-- Web-based controls
-- Wireless networking
-- Sensor integration
-- Modular control systems
-- System prototyping
+- Welded steel and stainless components
+- Grinding and finishing
+- Repairs and modifications
+- Brackets, mounts, rings, rods, and frames
+- Shop fixtures and practical fabrication support
 
 ### Product Development
 
@@ -517,7 +515,7 @@ Suggested categories:
 - Fire Fans
 - Staffs and Hand Props
 - Custom Fabrication
-- Embedded Controls
+- Custom Metalwork
 
 Each card should include:
 
@@ -620,11 +618,11 @@ Required:
 
 ### Headline
 
-Fire-performance equipment, engineered and fabricated with precision.
+Fire props and custom metalwork, fabricated with precision.
 
 ### Supporting Copy
 
-Mad Dragon Fire designs and builds specialized equipment for performers and artists through welding, mechanical design, embedded systems, and direct fire-performance experience.
+Mad Dragon Fire manufactures fire-performance props and custom metalwork for performers, artists, and fabrication clients through welding, grinding, mechanical design, and direct fire-performance experience.
 
 ### Primary CTA
 
@@ -636,9 +634,9 @@ Explore our work
 
 ## Intro
 
-Mad Dragon Fire LLC is a Seattle-based engineering and fabrication company focused on specialized fire-performance equipment.
+Mad Dragon Fire LLC is a Seattle-based fire-prop manufacturing and custom metal-fabrication company.
 
-We build equipment for performers who care about balance, durability, serviceability, and deliberate design. Our work combines hands-on fabrication with software, embedded controls, networking, and systems engineering.
+We build equipment for performers who care about balance, durability, serviceability, and deliberate design. Our work centers on hands-on welding, grinding, fitting, finishing, and repeatable shop processes.
 
 ## Capabilities
 
@@ -650,9 +648,9 @@ Steel and stainless-steel components fabricated through TIG and MIG welding, wit
 
 Custom fire fans, staffs, palm torches, grip systems, wick mounts, and related equipment designed around the needs of working performers.
 
-### Embedded Controls
+### Custom Metalwork
 
-ESP32-based firmware, wireless controls, sensor integration, web interfaces, and modular control systems for experimental performance and installation projects.
+Welded components, repairs, brackets, rings, rods, frames, fixtures, and custom shop-built metal pieces.
 
 ### Product Development
 
@@ -672,9 +670,9 @@ Custom staffs, palm torches, and handheld props designed for durable constructio
 
 One-off and small-batch fabrication for performers, troupes, artists, and specialized creative projects.
 
-### Controls and Engineering
+### Jigs, Repairs, and Custom Metalwork
 
-Embedded systems, wireless networking, controls, and supporting software for technically ambitious performance projects.
+Welded fixtures, replacement parts, repair work, and custom fabrication for performers, artists, and practical shop needs.
 
 ## Engineering Approach
 
@@ -698,7 +696,7 @@ The result is equipment designed as a system rather than assembled as a collecti
 
 Mad Dragon Fire was founded by a software and systems engineer with more than eight years of experience in high-performance computing, networking, automation, Linux systems, and production software.
 
-That engineering background extends into welding, mechanical fabrication, embedded controls, and fire-performance equipment.
+That engineering background extends into welding, mechanical fabrication, shop tooling, and fire-performance equipment.
 
 The company is informed by direct performance experience. Design decisions are evaluated not only at the workbench, but also through handling, balance, movement, maintenance, and repeated real-world use.
 
@@ -706,7 +704,7 @@ Mad Dragon Fire LLC is veteran-owned and based in Seattle, Washington.
 
 ## Contact
 
-Have a prop, performance system, or fabrication project in mind?
+Have a fire prop, repair, jig, or custom metalwork project in mind?
 
 Email:
 
@@ -875,7 +873,7 @@ Requirements:
 - Add dependency scanning if dependencies are introduced
 - Add security headers when supported
 - Validate form input
-- Do not expose operational flame-effect credentials or controls
+- Do not imply that Mad Dragon Fire currently sells poofers, poofer-as-a-service, or insured flame-effect services
 
 ## SEO
 
@@ -898,7 +896,7 @@ Suggested title:
 
 Suggested description:
 
-> Mad Dragon Fire designs and fabricates specialized fire-performance equipment through welding, mechanical design, embedded systems, and direct performance experience.
+> Mad Dragon Fire manufactures fire-performance props and custom metalwork through welding, grinding, mechanical design, and direct performance experience.
 
 ## Social Preview
 
@@ -964,7 +962,7 @@ Recommended:
 - [ ] Add fire-fan portfolio
 - [ ] Add staffs and hand props
 - [ ] Add custom fabrication projects
-- [ ] Add embedded-systems projects
+- [ ] Add custom metalwork projects
 - [ ] Add engineering writeups
 - [ ] Add image galleries
 - [ ] Add testimonials with permission

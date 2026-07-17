@@ -12,7 +12,7 @@ Repository:
 
 ## Purpose
 
-This site presents Mad Dragon Fire as a professional engineering, fabrication, and fire-performance equipment company.
+This site presents Mad Dragon Fire as a professional fire-prop manufacturing and custom metal-fabrication company.
 
 The initial site is intentionally small, fast, and portable. It is built with plain HTML and CSS, served by GitHub Pages, and fronted by Cloudflare DNS/HTTPS.
 
@@ -44,7 +44,7 @@ Read these files before making broad content, design, or structural changes:
 Current pages:
 
 - `/` - homepage
-- `/products/` - product and capability overview
+- `/products/` - fire props and custom metalwork overview
 - `/about/` - company background
 - `/gallery/` - work gallery placeholder
 - `/contact/` - contact information
