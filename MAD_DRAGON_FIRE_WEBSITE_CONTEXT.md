@@ -281,6 +281,10 @@ Mad Dragon Fire manufactures fire-performance props and custom metalwork through
 
 Fire props and custom metalwork.
 
+## Official Tagline
+
+Fire. Big Fire.
+
 ## GitHub Bio
 
 Mad Dragon Fire LLC manufactures fire-performance props and custom metalwork through welding, grinding, mechanical design, and direct performance experience.
@@ -413,15 +417,11 @@ Prepare variants for:
 
 Preserve the original asset and optimize web copies.
 
-## Tagline Candidates
+## Tagline
 
-Preferred:
+Official:
 
-- Engineered for fire performance.
-- Precision fabrication for fire artists.
-- Built for performance.
-- Fire tools, engineered.
-- Engineering fire-performance equipment.
+- Fire. Big Fire.
 
 Use only one primary tagline per page.
 
@@ -455,7 +455,7 @@ Requirements:
 
 Suggested headline:
 
-> Fire props and custom metalwork, fabricated with precision.
+> Fire. Big Fire.
 
 Suggested supporting copy:
 
@@ -618,7 +618,7 @@ Required:
 
 ### Headline
 
-Fire props and custom metalwork, fabricated with precision.
+Fire. Big Fire.
 
 ### Supporting Copy
 

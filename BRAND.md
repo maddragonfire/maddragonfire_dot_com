@@ -18,6 +18,10 @@ Mad Dragon Fire manufactures fire-performance props and custom metalwork through
 
 Fire props and custom metalwork.
 
+## Tagline
+
+Fire. Big Fire.
+
 ## GitHub Bio
 
 Mad Dragon Fire LLC manufactures fire-performance props and custom metalwork through welding, grinding, mechanical design, and direct performance experience.
