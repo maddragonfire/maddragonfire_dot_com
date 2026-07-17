@@ -331,3 +331,140 @@ footer {
     grid-column: auto;
   }
 }
+
+/* Portrait phones get a denser, touch-first composition. */
+@media (max-width: 600px) and (orientation: portrait) {
+  body {
+    background:
+      radial-gradient(circle at 82% 8%, rgba(241, 90, 36, 0.2), transparent 22rem),
+      linear-gradient(160deg, #15110f 0%, #1d1816 52%, #2b1710 100%);
+  }
+
+  .site-header {
+    gap: 0.65rem;
+    padding: max(0.65rem, env(safe-area-inset-top)) max(0.75rem, env(safe-area-inset-right)) 0.65rem max(0.75rem, env(safe-area-inset-left));
+  }
+
+  .brand {
+    gap: 0.55rem;
+    font-size: 0.9rem;
+    letter-spacing: 0.04em;
+  }
+
+  .brand img {
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+
+  nav {
+    width: calc(100% + 1.5rem);
+    margin-inline: -0.75rem;
+    padding-inline: 0.75rem;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    scrollbar-width: none;
+  }
+
+  nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  nav a {
+    min-height: 2.5rem;
+    flex: 0 0 auto;
+    padding: 0.6rem 0.8rem;
+    font-size: 0.86rem;
+  }
+
+  main {
+    width: min(100% - 1.5rem, 36rem);
+  }
+
+  .hero {
+    gap: 1.75rem;
+    padding: 1.25rem 0 3rem;
+  }
+
+  .hero-mark {
+    order: -1;
+    min-height: 0;
+    aspect-ratio: 4 / 5;
+    max-height: 66svh;
+  }
+
+  .hero-photo {
+    min-height: 0;
+    aspect-ratio: 4 / 5;
+  }
+
+  .hero-badge {
+    left: 0.75rem;
+    bottom: 0.75rem;
+    width: 5rem;
+  }
+
+  .eyebrow {
+    margin-bottom: 0.65rem;
+  }
+
+  h1 {
+    max-width: none;
+    font-size: clamp(3rem, 16vw, 4.6rem);
+    letter-spacing: -0.04em;
+  }
+
+  h2 {
+    font-size: 1.45rem;
+  }
+
+  .hero-copy > p:not(.eyebrow),
+  .page-header p {
+    font-size: 1.05rem;
+    line-height: 1.55;
+  }
+
+  .actions {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 1.5rem;
+  }
+
+  .button {
+    width: 100%;
+    min-height: 3.25rem;
+  }
+
+  .feature-grid,
+  .content-grid,
+  .gallery-grid {
+    gap: 0.75rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .feature-grid article,
+  .content-panel,
+  .gallery-item {
+    min-height: auto;
+    padding: 1.25rem;
+  }
+
+  .page-header {
+    gap: 1.5rem;
+    padding: 1.75rem 0 2rem;
+  }
+
+  .page-mark {
+    order: -1;
+    width: min(48vw, 10rem);
+  }
+
+  .gallery-item,
+  .gallery-feature {
+    min-height: 16rem;
+  }
+
+  footer {
+    padding: 1.5rem max(0.75rem, env(safe-area-inset-right)) max(1.5rem, env(safe-area-inset-bottom)) max(0.75rem, env(safe-area-inset-left));
+    font-size: 0.9rem;
+  }
+}
