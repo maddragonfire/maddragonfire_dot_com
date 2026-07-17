@@ -134,9 +134,30 @@ p {
 }
 
 .hero-logo {
-  width: min(100%, 30rem);
-  justify-self: center;
+  position: relative;
+  z-index: 1;
+  width: min(100%, 32rem);
   filter: drop-shadow(0 2rem 4rem var(--shadow));
+}
+
+.hero-mark {
+  position: relative;
+  display: grid;
+  place-items: center;
+  min-height: 32rem;
+}
+
+.hero-mark::before {
+  position: absolute;
+  inset: 8%;
+  content: "";
+  border: 1px solid rgba(255, 191, 63, 0.28);
+  border-radius: 50%;
+  background:
+    radial-gradient(circle, rgba(255, 106, 0, 0.26), rgba(255, 51, 0, 0.08) 42%, transparent 68%);
+  box-shadow:
+    inset 0 0 4rem rgba(255, 106, 0, 0.18),
+    0 2rem 5rem rgba(0, 0, 0, 0.38);
 }
 
 .actions {
@@ -164,6 +185,8 @@ p {
 .feature-grid article,
 .content-panel,
 .gallery-item {
+  position: relative;
+  overflow: hidden;
   min-height: 13rem;
   padding: 1.5rem;
   border: 1px solid var(--line);
@@ -172,7 +195,38 @@ p {
   box-shadow: 0 1.5rem 4rem var(--shadow);
 }
 
+.image-card {
+  display: grid;
+  align-content: end;
+}
+
+.image-card img,
+.visual-panel img,
+.gallery-item img {
+  position: absolute;
+  right: -2rem;
+  top: -2rem;
+  width: 12rem;
+  max-width: 58%;
+  opacity: 0.18;
+  filter: saturate(1.18);
+  pointer-events: none;
+}
+
+.image-card h2,
+.image-card p,
+.visual-panel h2,
+.visual-panel p,
+.gallery-item h2 {
+  position: relative;
+  z-index: 1;
+}
+
 .page-header {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(10rem, 16rem);
+  align-items: center;
+  gap: 2rem;
   padding: clamp(3rem, 8vw, 6rem) 0 3rem;
 }
 
@@ -185,6 +239,19 @@ p {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.visual-panel {
+  min-height: 16rem;
+  display: grid;
+  align-content: end;
+}
+
+.page-mark {
+  width: min(100%, 15rem);
+  justify-self: end;
+  opacity: 0.86;
+  filter: drop-shadow(0 1.5rem 2.5rem rgba(0, 0, 0, 0.42));
+}
+
 .gallery-item {
   display: grid;
   place-items: end start;
@@ -192,6 +259,12 @@ p {
   background:
     linear-gradient(145deg, rgba(255, 191, 63, 0.16), rgba(241, 90, 36, 0.18)),
     rgba(34, 27, 23, 0.8);
+}
+
+.gallery-item img {
+  width: 18rem;
+  max-width: 76%;
+  opacity: 0.26;
 }
 
 .contact-list {
@@ -228,6 +301,7 @@ footer {
   }
 
   .hero,
+  .page-header,
   .feature-grid,
   .content-grid,
   .gallery-grid {
@@ -240,5 +314,14 @@ footer {
 
   .hero-logo {
     width: min(82vw, 22rem);
+  }
+
+  .hero-mark {
+    min-height: 22rem;
+  }
+
+  .page-mark {
+    justify-self: start;
+    width: min(70vw, 13rem);
   }
 }
