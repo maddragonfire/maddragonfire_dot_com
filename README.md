@@ -48,7 +48,7 @@ Read these files before making broad content, design, or structural changes:
 Current pages:
 
 - `/` - homepage
-- `/products/` - fire props and custom metalwork overview
+- `/products/` - flow props and custom metalwork overview
 - `/about/` - company background
 - `/gallery/` - work gallery placeholder
 - `/contact/` - contact information
