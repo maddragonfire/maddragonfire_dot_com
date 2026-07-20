@@ -253,6 +253,39 @@ p {
   min-height: 18rem;
 }
 
+.gallery-categories {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.gallery-card {
+  min-height: 26rem;
+  color: var(--text);
+  text-decoration: none;
+  transition: transform 160ms ease, border-color 160ms ease;
+}
+
+.gallery-card::after {
+  position: absolute;
+  inset: 0;
+  content: "";
+  background: linear-gradient(180deg, transparent 40%, rgba(15, 9, 6, 0.92));
+}
+
+.gallery-card:hover,
+.gallery-card:focus-visible {
+  border-color: var(--accent-strong);
+  transform: translateY(-0.2rem);
+}
+
+.gallery-card-title {
+  position: relative;
+  z-index: 1;
+  font-size: clamp(2.2rem, 5vw, 4.5rem);
+  font-weight: 900;
+  letter-spacing: -0.04em;
+  line-height: 1;
+}
+
 .gallery-feature {
   grid-column: span 2;
   min-height: 24rem;
