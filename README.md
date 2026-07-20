@@ -42,6 +42,7 @@ Read these files before making broad content, design, or structural changes:
 ├── products/
 ├── about/
 ├── gallery/
+├── safety/
 └── contact/
 ```
 
@@ -51,6 +52,7 @@ Current pages:
 - `/products/` - fire props and custom metalwork overview
 - `/about/` - company background
 - `/gallery/` - work gallery placeholder
+- `/safety/` - fire-prop safety information and website legal terms
 - `/contact/` - contact information
 
 ## Deployment
