@@ -281,6 +281,97 @@ p {
   font-weight: 800;
 }
 
+.safety-notice {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(18rem, 1fr);
+  gap: clamp(1.5rem, 5vw, 4rem);
+  margin: 0 0 4rem;
+  padding: clamp(1.5rem, 4vw, 2.5rem);
+  border: 1px solid rgba(255, 191, 63, 0.52);
+  border-left: 0.4rem solid var(--accent-strong);
+  border-radius: 8px;
+  background: rgba(34, 27, 23, 0.86);
+  box-shadow: 0 1.5rem 4rem var(--shadow);
+}
+
+.safety-notice h2 {
+  max-width: 24ch;
+  line-height: 1.15;
+}
+
+.safety-notice p {
+  margin-top: 0;
+}
+
+.text-link,
+.legal-content a {
+  color: var(--accent-strong);
+  font-weight: 800;
+  text-underline-offset: 0.18em;
+}
+
+.legal-page {
+  width: min(920px, calc(100% - 2rem));
+}
+
+.legal-header {
+  padding: clamp(3rem, 8vw, 6rem) 0 2.5rem;
+}
+
+.legal-header h1 {
+  max-width: 12ch;
+  font-size: clamp(3.5rem, 10vw, 7rem);
+}
+
+.legal-updated {
+  margin: 1.5rem 0 0;
+  color: var(--accent-strong);
+  font-size: 0.9rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.legal-lead {
+  max-width: 48rem;
+  font-size: 1.2rem;
+}
+
+.legal-warning {
+  margin-bottom: 1rem;
+  padding: clamp(1.5rem, 4vw, 2.5rem);
+  border: 1px solid rgba(255, 191, 63, 0.52);
+  border-left: 0.4rem solid var(--accent-strong);
+  border-radius: 8px;
+  background: rgba(48, 24, 16, 0.9);
+}
+
+.legal-warning h2,
+.legal-content h2 {
+  line-height: 1.2;
+}
+
+.legal-warning p {
+  margin-bottom: 0;
+  font-size: 1.08rem;
+}
+
+.legal-content {
+  display: grid;
+  gap: 1rem;
+  padding-bottom: 4rem;
+}
+
+.legal-content section {
+  padding: clamp(1.5rem, 4vw, 2.5rem);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(34, 27, 23, 0.74);
+}
+
+.legal-content p:last-child {
+  margin-bottom: 0;
+}
+
 footer {
   display: flex;
   flex-wrap: wrap;
@@ -289,6 +380,12 @@ footer {
   padding: 2rem clamp(1rem, 4vw, 4rem);
   border-top: 1px solid var(--line);
   color: var(--muted);
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 1.5rem;
 }
 
 @media (max-width: 780px) {
@@ -306,7 +403,8 @@ footer {
   .page-header,
   .feature-grid,
   .content-grid,
-  .gallery-grid {
+  .gallery-grid,
+  .safety-notice {
     grid-template-columns: 1fr;
   }
 
@@ -466,5 +564,10 @@ footer {
   footer {
     padding: 1.5rem max(0.75rem, env(safe-area-inset-right)) max(1.5rem, env(safe-area-inset-bottom)) max(0.75rem, env(safe-area-inset-left));
     font-size: 0.9rem;
+  }
+
+  .footer-links {
+    display: grid;
+    gap: 0.75rem;
   }
 }
