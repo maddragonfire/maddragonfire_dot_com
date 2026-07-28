@@ -3,36 +3,60 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Gallery | Mad Dragon Fire</title>
-    <meta name="description" content="Metalwork and custom creation galleries from Mad Dragon Fire.">
+    <title>Gallery of Sold Pieces | Mad Dragon Fire</title>
+    <meta name="description" content="An archive of sold pieces and previous metalwork by Mad Dragon Fire LLC.">
     <link rel="icon" href="../assets/images/logo.png">
     <link rel="stylesheet" href="../style.css">
   </head>
   <body>
+    <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header">
-      <a class="brand" href="../"><img src="../assets/images/logo.png" alt="Mad Dragon Fire logo"><span>Mad Dragon Fire</span></a>
+      <a class="brand" href="../"><img src="../assets/images/logo.png" alt=""><span>Mad Dragon Fire</span></a>
       <nav aria-label="Main navigation">
-        <a href="../about/">About</a>
-        <a href="../gallery/">Gallery</a>
-        <a href="../contact/">Contact</a>
+        <a href="../available/">Available Now</a>
+        <a href="../commissions/">Custom Commissions</a>
+        <a href="../gallery/" aria-current="page">Gallery</a>
+        <a href="../about/">About the Craft</a>
       </nav>
     </header>
-    <main>
+
+    <main id="main">
       <section class="page-header">
-        <div>
-          <p class="eyebrow">Gallery</p>
-          <h1>Mad Dragon Fire Creations.</h1>
-          <p>Metalwork.</p>
+        <div class="page-header-copy">
+          <p class="eyebrow">Gallery · Sold pieces</p>
+          <h1>The archive grows with every sale.</h1>
+          <p>Finished pieces move here instead of disappearing. This is the permanent record of objects that have left the shop.</p>
         </div>
-        <img class="page-mark logo-mark" src="../images/logo.png" alt="Mad Dragon Fire logo" loading="lazy">
+        <img class="page-header-image" src="../images/Metalwork/steel-dice.jpeg" alt="Pair of welded steel dice">
       </section>
-      <section class="gallery-grid gallery-categories" aria-label="Gallery categories">
-        <a class="gallery-item gallery-card" href="metalwork/">
+
+      <section class="sold-grid" aria-label="Sold and previous metalwork">
+        <figure class="sold-piece">
           <img src="../images/Metalwork/steel-dice.jpeg" alt="Pair of welded steel dice" loading="lazy">
-          <span class="gallery-card-title">Metalwork</span>
-        </a>
+          <figcaption><strong>Steel Dice</strong><span class="sold-marker">Archive</span></figcaption>
+        </figure>
+        <figure class="sold-piece">
+          <img src="../images/Metalwork/welded-polyhedron.jpeg" alt="Finished welded steel polyhedron" loading="lazy">
+          <figcaption><strong>Steel Polyhedron</strong><span class="sold-marker">Archive</span></figcaption>
+        </figure>
+        <figure class="sold-piece">
+          <img src="../images/Metalwork/welded-polyhedron-interior.jpeg" alt="Interior welds of a steel polyhedron" loading="lazy">
+          <figcaption><strong>Polyhedron Interior</strong><span class="sold-marker">Detail</span></figcaption>
+        </figure>
+        <figure class="sold-piece">
+          <img src="../images/Metalwork/metal-cube-organizers.jpeg" alt="Set of welded metal cube organizers" loading="lazy">
+          <figcaption><strong>Cube Organizers</strong><span class="sold-marker">Archive</span></figcaption>
+        </figure>
+        <figure class="sold-piece">
+          <img src="../images/Metalwork/open-metal-cube-organizers.jpeg" alt="Open welded metal cube organizers" loading="lazy">
+          <figcaption><strong>Open Cube Organizers</strong><span class="sold-marker">Archive</span></figcaption>
+        </figure>
       </section>
     </main>
-    <footer><span>Mad Dragon Fire LLC</span><a href="mailto:maddragonfire@gmail.com">maddragonfire@gmail.com</a></footer>
+
+    <footer>
+      <span>Mad Dragon Fire LLC · Handmade in Seattle, Washington</span>
+      <div class="footer-links"><a href="mailto:maddragonfire@gmail.com">maddragonfire@gmail.com</a><a href="../contact/">Contact</a></div>
+    </footer>
   </body>
 </html>

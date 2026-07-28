@@ -39,7 +39,8 @@ Read these files before making broad content, design, or structural changes:
 ├── assets/images/logo.png
 ├── images/logo.png
 ├── logo.png
-├── products/
+├── available/
+├── commissions/
 ├── about/
 ├── gallery/
 └── contact/
@@ -48,10 +49,12 @@ Read these files before making broad content, design, or structural changes:
 Current pages:
 
 - `/` - homepage
-- `/products/` - flow props and custom metalwork overview
-- `/about/` - company background
-- `/gallery/` - work gallery placeholder
-- `/contact/` - contact information
+- `/available/` - one-of-one pieces ready to ship
+- `/commissions/` - custom commission overview
+- `/gallery/` - sold pieces and previous work
+- `/about/` - the shop and fabrication practice
+- `/contact/` - purchase and commission inquiries
+- `/products/` - legacy redirect to `/available/`
 
 ## Deployment
 
