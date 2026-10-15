@@ -571,6 +571,21 @@ footer {
   color: var(--muted);
 }
 
+footer address,
+.business-address {
+  font-style: normal;
+}
+
+.business-address {
+  margin-top: 1.25rem;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.business-address strong {
+  color: var(--text);
+}
+
 .footer-links {
   display: flex;
   flex-wrap: wrap;
