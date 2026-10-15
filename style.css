@@ -586,6 +586,10 @@ footer address,
   color: var(--text);
 }
 
+.business-address .appointment-only {
+  color: var(--accent-light);
+}
+
 .footer-links {
   display: flex;
   flex-wrap: wrap;
