@@ -769,3 +769,61 @@ footer address,
     font-size: 0.88rem;
   }
 }
+
+/* Ownership is visible before the hero on desktop and mobile. */
+.ownership-banner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem 2rem;
+  margin-top: 1.25rem;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--line-strong);
+  border-left: 3px solid var(--accent);
+  border-radius: 4px;
+  background: var(--surface);
+}
+.ownership-banner strong,
+.ownership-banner div > span {
+  display: block;
+}
+.ownership-banner strong {
+  color: var(--accent-light);
+  font-size: clamp(0.95rem, 2vw, 1.1rem);
+  line-height: 1.4;
+}
+.ownership-banner div > span {
+  margin-top: 0.25rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.ownership-banner a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 2.75rem;
+  font-weight: 750;
+  text-underline-offset: 0.25em;
+}
+.ownership-banner a:focus-visible {
+  outline: 2px solid var(--accent-light);
+  outline-offset: 4px;
+}
+.ownership-story {
+  max-width: 52rem;
+  margin-bottom: 3rem;
+  padding: 2rem 0 0 1.25rem;
+  border-left: 3px solid var(--accent);
+  scroll-margin-top: 10rem;
+}
+.ownership-story h2 {
+  font-size: clamp(1.8rem, 4vw, 3rem);
+}
+.ownership-footer {
+  flex-basis: 100%;
+  margin: 0;
+  color: var(--accent-light);
+  font-size: 0.9rem;
+  font-weight: 750;
+}
