@@ -827,3 +827,20 @@ footer address,
   font-size: 0.9rem;
   font-weight: 750;
 }
+
+/* Roof rack project: preserve the full portrait photographs. */
+#aluminum-roof-rack { scroll-margin-top: 10rem; }
+.roof-rack-feature { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1fr); gap: clamp(1.5rem, 5vw, 4rem); align-items: center; }
+.roof-rack-feature .section-heading { display: block; margin-bottom: 0; }
+.roof-rack-feature .section-heading .button { margin-top: 1rem; }
+.roof-rack-preview { display: block; overflow: hidden; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); }
+.roof-rack-preview img { width: 100%; height: auto; }
+.roof-rack-photos { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; margin-bottom: 2rem; }
+.roof-rack-photos figure { margin: 0; overflow: hidden; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); }
+.roof-rack-photos a { display: block; }
+.roof-rack-photos img { width: 100%; height: auto; }
+.roof-rack-photos figcaption { padding: 1rem 1.2rem; color: var(--muted); line-height: 1.6; font-size: .9rem; }
+.roof-rack-preview:focus-visible, .roof-rack-photos a:focus-visible { outline: 2px solid var(--accent-light); outline-offset: 4px; }
+@media (max-width: 780px) {
+  .roof-rack-feature, .roof-rack-photos { grid-template-columns: 1fr; }
+}

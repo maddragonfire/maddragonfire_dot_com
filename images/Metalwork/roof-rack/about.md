@@ -4,8 +4,8 @@ A completed customer commission fabricated from aluminum rod by Skip Lester at M
 
 ## Photos
 
-- `IMG_7079(1).jpeg`
-- `IMG_7176(1).jpeg`
+- `IMG_7079.jpeg`
+- `IMG_7176.jpeg`
 
 The photos document the finished rack and Skip standing on it to demonstrate its strength. This demonstration does not establish a rated load capacity.
 
