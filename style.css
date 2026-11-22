@@ -904,7 +904,7 @@ footer address,
   .welding-cart-photos img { aspect-ratio: auto; }
 }
 
-.welding-cart-specs { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.25rem; margin: 0 0 2rem; }
+.welding-cart-specs { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1.25rem; margin: 0 0 2rem; }
 .welding-cart-specs div { padding: 1rem 1.2rem; border-left: 2px solid var(--accent); background: var(--surface); }
 .welding-cart-specs dt { color: var(--accent-light); font-size: .9rem; margin-bottom: .4rem; }
 .welding-cart-specs dd { margin: 0; line-height: 1.6; }
