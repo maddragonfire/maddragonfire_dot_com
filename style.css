@@ -844,3 +844,68 @@ footer address,
 @media (max-width: 780px) {
   .roof-rack-feature, .roof-rack-photos { grid-template-columns: 1fr; }
 }
+
+/* Welding cart: lightweight photo gallery and a user-initiated video. */
+#welding-cart { scroll-margin-top: 10rem; }
+.welding-cart-photos {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+.welding-cart-photos figure {
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--surface);
+}
+.welding-cart-photos a { display: block; background: #0a0908; }
+.welding-cart-photos img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 9 / 16;
+  object-fit: contain;
+}
+.welding-cart-photos figcaption { padding: 1.2rem; color: var(--muted); line-height: 1.6; }
+.welding-cart-photos figcaption strong { display: block; margin-bottom: .35rem; color: var(--text); }
+.welding-cart-photo-note { margin: 1rem 0 2rem; color: var(--muted); font-size: .9rem; }
+.welding-cart-film {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, .8fr);
+  align-items: center;
+  gap: clamp(1.5rem, 5vw, 4rem);
+  padding: clamp(1.25rem, 4vw, 3rem);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--surface);
+}
+.welding-cart-film-copy { max-width: 32rem; }
+.welding-cart-film h3 { font-size: clamp(1.7rem, 3vw, 2.6rem); }
+.welding-cart-film video {
+  display: block;
+  width: 100%;
+  max-width: 23rem;
+  height: auto;
+  justify-self: center;
+  border-radius: 4px;
+  background: #000;
+}
+.welding-cart-feature {
+  display: grid;
+  grid-template-columns: minmax(0, .8fr) minmax(0, 1fr);
+  gap: clamp(1.5rem, 5vw, 4rem);
+  align-items: center;
+}
+.welding-cart-preview { display: block; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; background: var(--surface); }
+.welding-cart-preview img { width: 100%; height: auto; max-height: 36rem; object-fit: contain; }
+.welding-cart-photos a:focus-visible, .welding-cart-preview:focus-visible { outline: 3px solid var(--accent-light); outline-offset: -3px; }
+@media (max-width: 780px) {
+  .welding-cart-photos, .welding-cart-film, .welding-cart-feature { grid-template-columns: 1fr; }
+  .welding-cart-photos img { aspect-ratio: auto; }
+}
+
+.welding-cart-specs { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.25rem; margin: 0 0 2rem; }
+.welding-cart-specs div { padding: 1rem 1.2rem; border-left: 2px solid var(--accent); background: var(--surface); }
+.welding-cart-specs dt { color: var(--accent-light); font-size: .9rem; margin-bottom: .4rem; }
+.welding-cart-specs dd { margin: 0; line-height: 1.6; }
+@media (max-width: 780px) { .welding-cart-specs { grid-template-columns: 1fr; } }
